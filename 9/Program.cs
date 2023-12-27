@@ -3,12 +3,12 @@ try
 {
     Console.WriteLine("Введите длины сторон параллелипипеда:");
     Console.Write("a: ");
-    double x = double.Parse(Console.ReadLine()!);
+    double a = double.Parse(Console.ReadLine()!);
     Console.Write("b: ");
-    double y = double.Parse(Console.ReadLine()!);
+    double b = double.Parse(Console.ReadLine()!);
     Console.Write("c: ");
-    double z = double.Parse(Console.ReadLine()!);
-    Numbers num = new Numbers(x, y, z);
+    double c = double.Parse(Console.ReadLine()!);
+    Numbers num = new Numbers(a, b, c);
     Console.Write("Площадь поверхности параллелипипеда: ");
     num.Area();
     Console.Write($"Сумма длин сторон всех ребер параллелепипеда: ");
